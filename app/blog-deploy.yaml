@@ -17,10 +17,10 @@ spec:
     spec:
       containers:
         - name: vue-app
-          image: vue3-app:latest
+          image: nginx:1.29-alpine
           imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 8080
+            - containerPort: 80
               protocol: TCP
       restartPolicy: Always
       
