@@ -5,7 +5,7 @@ metadata:
   labels:
     app: vue-app
 spec:
-  replicas: 39
+  replicas: 5
   selector:
     matchLabels:
       app: vue-app
